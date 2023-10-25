@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import CustomButton from '../../components/UI/customButton/CustomButton';
 import css from './DummyChart.module.sass';
 
