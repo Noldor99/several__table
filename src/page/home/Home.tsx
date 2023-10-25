@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className={css.container}>
       <p className={css.title}>Hello Backendless</p>
-      <img src="https://zasmeshi.ru/data/demotivator/medium/15012-kazhdaya-groza-potok-nenuzhnoj-informacii.jpg" alt="Simple" />
+      <img src="https://senior.ua/storage/article/content/f70b4dc5-118f-4e3e-869d-270065620a4a.jpeg" alt="Simple" />
     </div>
   )
 }
