@@ -1,0 +1,15 @@
+@import "../../styles/index.sass"
+
+.container
+  @include containerGlobal
+  padding-top: 20px
+
+.parag
+  border: 1px solid #000 // Додаємо рамку
+  padding: 8px // Додаємо внутрішній відступ
+  cursor: pointer // Додаємо вказівник, щоб показати, що текст є вибираємим
+  transition: background-color 0.3s // Додаємо анімацію для зміни кольору фону при наведенні
+  padding: 20px
+  margin: 20px
+  &:hover
+    background-color: #f0f0f0
